@@ -1,0 +1,29 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-family: "Mozilla Headline", sans-serif;
+  font-size: 36px;
+}
+
+.outer {
+  text-align: center;
+  border: 5px solid rgb(0, 110, 255);
+  background-color: lightgreen;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.box {
+  padding: 50px;
+  background-color: lightblue;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 50px;
+}
+.head {
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: wheat;
+  padding: 20px;
+}
