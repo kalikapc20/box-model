@@ -5,8 +5,15 @@ h1 {
   font-family: "Mozilla Headline", sans-serif;
   font-size: 36px;
 }
+body {
+  animation: rotate-bg-color 10s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .outer {
+  margin-top: 25vh;
   text-align: center;
   border: 5px solid rgb(0, 110, 255);
   background-color: lightgreen;
@@ -26,4 +33,40 @@ h1 {
   font-weight: bold;
   background-color: wheat;
   padding: 20px;
+}
+
+@keyframes rotate-bg-color {
+  0% {
+    background-color: steelblue;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: green;
+  }
+  50% {
+    background-color: blue;
+  }
+  60% {
+    background-color: indigo;
+  }
+  70% {
+    background-color: violet;
+  }
+  80% {
+    background-color: pink;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: black;
+  }
 }
