@@ -6,7 +6,7 @@ h1 {
   font-size: 36px;
 }
 body {
-  animation: aditya 2s infinite;
+  animation: aditya 1s infinite;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,3 +69,4 @@ body {
     background-color: rgb(255, 0, 255);
   }
 }
+
