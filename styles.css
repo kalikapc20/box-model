@@ -6,7 +6,7 @@ h1 {
   font-size: 36px;
 }
 body {
-  animation: rotate-bg-color 10s infinite;
+  animation: aditya 2s infinite;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 .outer {
   margin-top: 25vh;
   text-align: center;
-  border: 5px solid rgb(0, 110, 255);
+  border: 15px solid rgb(0, 0, 0);
   background-color: lightgreen;
   margin-left: 50px;
   margin-right: 50px;
@@ -34,39 +34,38 @@ body {
   background-color: wheat;
   padding: 20px;
 }
-
-@keyframes rotate-bg-color {
+@keyframes aditya {
   0% {
-    background-color: steelblue;
+    background-color: rgb(255, 0, 0);
   }
   10% {
-    background-color: red;
+    background-color: rgb(255, 128, 0);
   }
   20% {
-    background-color: orange;
+    background-color: rgb(255, 255, 0);
   }
   30% {
-    background-color: yellow;
+    background-color: rgb(128, 255, 0);
   }
   40% {
-    background-color: green;
+    background-color: rgb(0, 255, 0);
   }
   50% {
-    background-color: blue;
+    background-color: rgb(0, 255, 128);
   }
   60% {
-    background-color: indigo;
+    background-color: rgb(0, 255, 255);
   }
   70% {
-    background-color: violet;
+    background-color: rgb(0, 128, 255);
   }
   80% {
-    background-color: pink;
+    background-color: rgb(0, 0, 255);
   }
   90% {
-    background-color: brown;
+    background-color: rgb(128, 0, 255);
   }
   100% {
-    background-color: black;
+    background-color: rgb(255, 0, 255);
   }
 }
